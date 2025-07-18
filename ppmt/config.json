@@ -1,0 +1,74 @@
+{
+  "script_config": {
+    "product_keywords": [
+      "泡泡玛特",
+      "POP MART",
+      "盲盒",
+      "手办"
+    ],
+    "wait_times": {
+      "short": 1000,
+      "medium": 2000,
+      "long": 5000,
+      "very_long": 10000
+    },
+    "max_retry": 3,
+    "swipe_config": {
+      "duration": 500,
+      "steps": 10
+    }
+  },
+  "ui_selectors": {
+    "wechat_selectors": [
+      "微信",
+      "com.tencent.mm:id/icon",
+      "android.widget.ImageView"
+    ],
+    "search_selectors": [
+      "搜索",
+      "查找"
+    ],
+    "product_selectors": [
+      "商品",
+      "详情",
+      "查看",
+      "购买",
+      "立即购买"
+    ],
+    "spec_selectors": [
+      "规格",
+      "选择",
+      "型号",
+      "款式"
+    ],
+    "cart_selectors": [
+      "加入购物车",
+      "添加到购物车",
+      "加购",
+      "购物车"
+    ],
+    "buy_selectors": [
+      "立即购买",
+      "马上购买",
+      "购买",
+      "下单"
+    ],
+    "confirm_selectors": [
+      "确认订单",
+      "提交订单",
+      "立即支付",
+      "支付"
+    ],
+    "payment_methods": [
+      "微信支付",
+      "支付宝",
+      "银行卡"
+    ]
+  },
+  "advanced_settings": {
+    "enable_debug": true,
+    "enable_screenshot": false,
+    "auto_retry_on_failure": true,
+    "check_network_before_start": true
+  }
+} 
